@@ -1,0 +1,17 @@
+This document will outline how to run Shimi files using the terminal:
+
+First, you will need to activate the virtual environment. For this current iteration of Shimi, the proper code to activate is this:
+
+source ~/python3-env/shimi/bin/activate
+
+Next you will have to locate the file using cd. For this folder use:
+
+cd Documents/shimi-master/Sean
+
+In order to get permission to work with Shimi's motors, you will need to change the execution of a certain dev part:
+
+sudo chmod 666 /dev/ttyACM0
+
+From here, you can use python3 in the terminal and input from there or run a file using:
+
+python3 ./filename
